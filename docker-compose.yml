@@ -10,7 +10,7 @@ services:
       - portfolio-network
 
   backend:
-    build: ./portfolio-api-Express
+    build: ./portfolio-api
     container_name: backend
     ports:
       - "3000:3000"
@@ -23,7 +23,7 @@ services:
       - portfolio-network
 
   frontend:
-    build: ./FullStack_Portfolio_REACT
+    build: ./portfolio-react
     container_name: frontend
     ports:
       - "5173:5173"

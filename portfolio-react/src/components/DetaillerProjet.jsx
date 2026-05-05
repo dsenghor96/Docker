@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 
-const API_URL = 'http://localhost:3000/api/projects'
-const BASE_URL = 'http://localhost:3000'
+const API_URL = '/api/projects'
+const BASE_URL = ''
 
 function DetaillerProjet() {
   const { id } = useParams()

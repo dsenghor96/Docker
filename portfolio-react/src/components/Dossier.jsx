@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Projet from './Projet'
 import AjouterProjet from './AjouterProjet'
 
-const API_URL = 'http://localhost:3000/api/projects'
+const API_URL = '/api/projects'
 
 function Dossier({ afficherFormulaire, setAfficherFormulaire }) {
   const [projets, setProjets] = useState([])
