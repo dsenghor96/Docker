@@ -1,5 +1,7 @@
 # Portfolio — Application Dockerisée
 
+![Architecture Docker](docker.png)
+
 Un projet full‑stack (API Node/Express + frontend React) conteneurisé avec Docker et orchestré via Docker Compose. Permet de lister, ajouter, modifier et supprimer des projets de portfolio, avec upload d'images.
 
 ## Principaux éléments
